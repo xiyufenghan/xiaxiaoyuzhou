@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="3" dy="4" stdDeviation="2.2" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+    <style>
+      .word {
+        font-family: "HanziPen SC", "翩翩体-简", "Hannotate SC", "手札体-简", "PingFang SC", sans-serif;
+        font-weight: 800;
+        fill: #0F172A;
+        stroke: #0F172A;
+        stroke-width: 7px;
+        paint-order: stroke fill;
+        letter-spacing: 0;
+        filter: url(#shadow);
+      }
+      .meta {
+        font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  
+  <g>
+    <text x="410" y="224" transform="rotate(-5 410 224)" class="word" font-size="142">浴</text>
+<text x="542" y="237" transform="rotate(2 542 237)" class="word" font-size="142">缸</text>
+<text x="674" y="224" transform="rotate(-3 674 224)" class="word" font-size="142">速</text>
+<text x="806" y="237" transform="rotate(3 806 237)" class="word" font-size="142">记</text>
+    <g transform="translate(78 116)" filter="url(#shadow)">
+      <rect x="0" y="0" width="250" height="108" rx="48" fill="#FBBF24" stroke="#6B4E00" stroke-width="6"/>
+      <text x="125" y="73" class="meta" text-anchor="middle" font-size="58" fill="#0F172A">Vol.x</text>
+    </g>
+    <path d="M410 292 C510 281 640 288 740 291 C840 294 940 283 946 286" fill="none" stroke="#0F172A" stroke-width="8" stroke-linecap="round" filter="url(#shadow)"/>
+    <path d="M410 312 C540 303 660 312 800 306 C910 301 1010 307 938 300" fill="none" stroke="#FBBF24" stroke-width="4" stroke-linecap="round" opacity=".92"/>
+    
+      <g transform="translate(964 136) scale(0.78)">
+        <path d="M28 62 C30 44 45 36 70 38 L174 38 C196 38 212 48 216 66 C211 99 189 116 78 116 C47 116 31 98 28 62Z" fill="#F8FAFC" stroke="#0B1220" stroke-width="7" stroke-linejoin="round"/>
+        <path d="M54 38 C54 18 69 12 82 22" fill="none" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+        <path d="M42 66 C83 76 144 77 204 66" fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="162" cy="8" r="18" fill="#38BDF8" stroke="#0B1220" stroke-width="5"/>
+        <circle cx="199" cy="21" r="8" fill="#38BDF8" stroke="#0B1220" stroke-width="4"/>
+        <circle cx="183" cy="-13" r="7" fill="#38BDF8" stroke="#0B1220" stroke-width="4"/>
+      </g>
+    <text x="420" y="390" class="meta" font-size="34" fill="#475569" letter-spacing="3">尚无答案 / 值得思考的小念头</text>
+  </g>
+</svg>
